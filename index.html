@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Test case generator </title>
+        <link rel="stylesheet" href = "styles.css">
+    </head>
+    <body>
+        <div id="generator">
+            <h3> Test case generator for competitive programming </h3>
+            <!-- <table border="5px">
+                <tr>
+                    <td> -->
+                        Enter number of testcases required<br>
+                    <!-- </td> -->
+                    <!-- <td> -->
+                        <input type="number" min="1" id="tc">
+                        <br>
+                    <!-- </td>
+                </tr>
+                <tr>
+                    <td> -->
+                        <label for="data"> Select type of input: </label><br>
+                    <!-- </td>
+                    <td> -->
+                        <span class="selbox">
+                            <select id="typ" name="data" onchange="constraints()">
+                                <option value="Select the choice" disabled selected> Select </option>
+                                <option value="int"> Integer </option>
+                                <option value="str"> String </option> 
+                            </select>
+                        </span>
+                    <!-- </td>
+                </tr>
+                <tr>
+                    <td> -->
+                        <br>
+                        Select number of inputs:<br>
+                    <!-- </td>
+                    <td> -->
+                        <span class="selbox">
+                            <button> Single input </button>
+                            <button onclick="enterNum()"> Array </button>
+                            <button onclick="enterDim()"> Matrix </button> 
+                        </span>
+                    <!-- </td>
+                </tr> -->
+                <div id="arraybox">
+                    <!-- <div> -->
+                        <!-- <td id="arrlabel"> -->
+                            <br>
+                            Enter maximum size of array<br>
+                        <!-- </td>
+                        <td id="arrinp">  -->
+                            <input type="number" min="1" id="arr">
+                        <!-- </td> -->
+                    <!-- </div> -->
+                </div><br>
+                <div id="matbox">
+                        <!-- <td>  -->
+                            Enter maximum number of rows and columns of matrix <br>
+                        <!-- </td> -->
+                        <!-- <td> -->
+                            <input type="number" min="1" id="rows">
+                        <input type="number" min="1" id="cols"> 
+                    <!-- </td> -->
+                </div>
+                <br>
+                <div id="limits">
+                        <!-- <td>  -->
+                            
+                            Enter Integer limits <br>
+                        <!-- </td>
+                        <td>  -->
+                            Minimum: <input type="number" id="mini"> 
+                        <!-- </td> -->
+                        <!-- <td>  -->
+                            Maximum: <input type="number" id="maxi"> 
+                        <!-- </td> -->
+                <!-- </tr> -->
+                </div>
+                <!-- <br> -->
+                
+                <div id="characters">
+                    
+                    <!-- <td> -->
+                        
+                        <div>
+                            Enter maximum length of string<br>
+                            <input type="number" id="slen">
+                        </div>
+                        <br>
+                        Choose characters String can contain
+                    <!-- </td>
+                    <td> -->
+                        
+                    <!-- </td>
+                    <td> -->
+                        
+                    <!-- </td>   
+                    <td> -->
+                        <br>
+                        
+                        <input type="checkbox" id="lowercase" name="lower"><label for="lower"> Lowercase letters</label>
+                    <!-- </td>
+                    <td> -->
+                        
+                        <input type="checkbox" id="uppercase" name="upper"><label for="upper"> Uppercase letters</label>
+                    <!-- </td>
+                    <td> -->
+                        
+                        <input type = "checkbox" id="numbers" name="numb"><label for="numb"> Numbers </label>
+                    <!-- </td>    
+                    <td> -->
+                        
+                        <input type="checkbox" id="space" name ="space"><label for="space"> Space </label>
+                   
+            </div>
+            <br>
+            <button onclick="generateCases()"> Generate Test Cases </button>
+            <div id="result">
+            </div>
+        </div>
+    </body>
+    <script src="generate.js">
+
+    </script>
+</html>
