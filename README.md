@@ -1,6 +1,7 @@
 This project is a utility tool designed to aid competitive programmers by generating random integers for creating test cases. It’s an invaluable resource for anyone involved in competitive programming, as it allows for the efficient testing of algorithms and data structures.
 
 Key Features:
+
 **Random Integer Generation:** The core functionality of this project is to generate random integers within a specified range. This feature is crucial for testing how well algorithms handle different inputs.
 
 **Test Case Preparation:** The generated integers can be used to prepare test cases for various competitive programming problems. This helps ensure that your solutions work for a variety of inputs, increasing their robustness and reliability.
