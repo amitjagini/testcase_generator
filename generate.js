@@ -134,7 +134,7 @@ function generateCases()
                 }
             }
         }
-        res_id.innerHTML+='<br><hr>';
+        res_id.innerHTML+='<br>';
         tc_num--;
     }
 }
