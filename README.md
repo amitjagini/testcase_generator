@@ -8,8 +8,8 @@ Key Features:
 Applications:
 This tool is particularly useful for:
 
-    **Problem Solvers:** Those who regularly participate in competitive programming can use this tool to generate test cases and validate their solutions.
-    **Problem Setters:** If you’re setting problems for a contest, this tool can help you generate diverse test cases to ensure the problem cannot be solved by naive or incomplete solutions.
+   **Problem Solvers:** Those who regularly participate in competitive programming can use this tool to generate test cases and validate their solutions.
+   **Problem Setters:** If you’re setting problems for a contest, this tool can help you generate diverse test cases to ensure the problem cannot be solved by naive or incomplete solutions.
 
 ![image](https://github.com/amitjagini/testcase_generator/assets/98224731/505ede67-6a7b-40dc-8f1d-4ae7c3a3e0b9)
 
